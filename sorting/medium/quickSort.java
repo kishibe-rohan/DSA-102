@@ -44,8 +44,8 @@ public class quickSort {
         }
 
         // put the pivot element at its appropriate place
-        int temp = a[end];
-        a[end] = a[pIndex];
+        int temp = a[h];
+        a[h] = a[pIndex];
         a[pIndex] = temp;
 
         // return the index of pivot
